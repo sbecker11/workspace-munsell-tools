@@ -1,0 +1,5 @@
+/.vscode
+/__pycache__
+/munsell_to_rgb_2.csv
+/munsell_to_rgb_2.js
+/venv
