@@ -43,7 +43,8 @@ def create_js_dict(csv_line):
     b = int(parts[6])
     chipSize = 75
     chipMargin = 10
-    y1 = (value_row-1)*(chipSize+chipMargin)+chipMargin
+    max_value = 9
+    y1 = (max_value - value_row)*(chipSize+chipMargin)+chipMargin
     y2 = y1 + chipSize
     x1 = (chroma_column//2-1)*(chipSize+chipMargin)+chipMargin
     x2 = x1 + chipSize
